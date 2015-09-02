@@ -1,0 +1,29 @@
+.rn_ProductCategorySearchFilter button.rn_DisplayButton {
+    background:none;
+    color:#000;
+    cursor:pointer;
+    font-weight:normal;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    z-index:0 !important;
+}
+.rn_ProductCategorySearchFilter .yui-overlay-hidden .rn_Panel table {
+    /*Fix IE6/7 problem displaying tables within overlays*/
+    *border-collapse:separate;
+}
+.rn_ProductCategorySearchFilter .ygtvrow {
+    cursor:pointer;
+}
+/* make the text label font relative*/
+.rn_ProductCategorySearchFilter .ygtvlabel,
+.rn_ProductCategorySearchFilter .ygtvlabel:link,
+.rn_ProductCategorySearchFilter .ygtvlabel:visited,
+.rn_ProductCategorySearchFilter .ygtvlabel:hover { 
+    font-size:inherit;
+}

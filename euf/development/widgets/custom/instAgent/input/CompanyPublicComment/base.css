@@ -1,0 +1,46 @@
+/* Core css for widget functionality goes here. */
+
+#div_company_comment_form label {
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+
+#div_company_comment_form .rn_FormSubmit {
+    display: inline;
+}
+
+#div_company_comment_form #comment_cancel_button {
+    margin: 11px 0 0 10px;
+}
+
+#company_comment_link {
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#company_comment_label {
+    font-weight: bold;
+}
+
+.highlight_block {
+    background-color: #B6D7A8; 
+    padding: 0 0 10px 10px; 
+}
+
+.highlight_block h3.rn_HeadingBar {
+    background-color: #B6D7A8;  
+    margin-left: -10px;
+}
+
+.commentRadios {
+    background-color: #B6D7A8;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;   
+    margin: 0;
+    vertical-align: top;
+
+}

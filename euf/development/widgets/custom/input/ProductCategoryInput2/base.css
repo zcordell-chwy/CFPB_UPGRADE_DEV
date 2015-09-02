@@ -1,0 +1,32 @@
+.rn_ProductCategoryInput button.rn_DisplayButton {
+    display:inline;
+    background:none;
+    color:#000;
+    cursor:pointer;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.rn_ProductCategoryInput .yui-overlay-hidden .rn_Panel table {
+    /*Fix IE6/7 problem displaying tables within overlays*/
+    *border-collapse:separate;
+}
+.rn_ProductCategoryInput .ygtvrow {
+    cursor:pointer;
+}
+.rn_ProductCategoryInput .ygtvspacer {
+    width:1em;
+    display:block;
+}
+/* make the text label font relative*/
+.rn_ProductCategoryInput .ygtvlabel,
+.rn_ProductCategoryInput .ygtvlabel:link,
+.rn_ProductCategoryInput .ygtvlabel:visited,
+.rn_ProductCategoryInput .ygtvlabel:hover { 
+    font-size:inherit;
+}
+.rn_ProductCategoryInput .rn_HintBox {
+    z-index:1;
+}
+.rn_ProductCategoryInput .rn_HintBox.rn_AlwaysVisibleHint {
+    z-index:0;
+}
