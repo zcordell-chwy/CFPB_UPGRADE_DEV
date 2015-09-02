@@ -1,0 +1,19 @@
+.rn_FileAttachmentUpload2 {
+    margin-bottom:8px;
+}
+.rn_FileAttachmentUpload2 img {
+    vertical-align: middle;
+}
+.rn_FileAttachmentUpload2{
+	position: relative;
+}
+.rn_FileAttachmentUpload2 div,
+rn_FileAttachmentUpload2 input{
+	position: relative;
+}
+.attach-overlay{
+	z-index: 1;
+}
+.attach{
+	z-index: 5;
+}

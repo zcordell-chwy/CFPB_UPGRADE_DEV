@@ -1,0 +1,31 @@
+.rn_Grid2{
+    overflow-x:auto;
+    overflow-y:hidden;
+    /*IE6/7*/
+    *padding-bottom:10px;
+}
+.rn_Grid2 .yui-dt{
+    border-collapse:collapse;
+}
+
+.rn_Grid2 .yui-dt table {
+    border:1px solid #888;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.rn_Grid2 .yui-dt th, .yui-dt td {
+    padding:4px 10px 4px 6px;
+}
+
+.rn_Grid2 .yui-dt th, .yui-dt th a, .yui-dt th a:hover {
+    color:#000;
+    font-weight:normal;
+    text-decoration:none;
+    vertical-align:bottom;
+}
+
+.rn_Grid2 thead .yui-dt-sortable {
+    cursor:pointer;
+}
+

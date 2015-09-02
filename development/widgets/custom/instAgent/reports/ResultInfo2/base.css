@@ -1,0 +1,21 @@
+.rn_ResultInfo2 {
+    overflow:hidden;
+    padding-bottom:6px;
+}
+.rn_ResultInfo2 .rn_Results {
+    float:right;
+}
+.rn_ResultInfo2 .rn_Suggestion,
+.rn_ResultInfo2 .rn_Spell {
+    float:left;
+}
+.rn_ResultInfo2 .rn_NoResults {
+    clear:both;
+}
+.rn_ResultInfo2 .rn_NoResults ul{
+    padding-left:2em;
+}
+.rn_ResultInfo2 .rn_NoResults ul li{
+    list-style:disc;
+    margin:4px;
+}

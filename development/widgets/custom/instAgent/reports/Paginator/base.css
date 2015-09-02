@@ -1,0 +1,15 @@
+.rn_Paginator {
+    clear:left;
+    padding:10px 0;
+    font-size:140%;
+}
+.rn_Paginator a,
+.rn_Paginator .rn_CurrentPage {
+    line-height:2em;
+    margin-right:4px;
+    padding:4px;
+}
+.rn_Paginator img {
+    vertical-align:middle;
+    border:none;
+}

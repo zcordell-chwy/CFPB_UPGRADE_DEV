@@ -1,0 +1,47 @@
+.rn_NavigationTab2 {
+    display:inline-block;
+}
+.rn_NavigationTab2 a {
+    cursor:pointer;
+    float:left;
+    font-size:1em;
+    font-weight:bold;
+    height:20px;
+    /*IE6*/
+    _height:18px;
+    margin-right:4px;
+    padding:5px 20px;
+    position:relative;
+}
+/* Sub navigation */
+.rn_NavigationTab2 .rn_DropDown {
+    padding-right:28px;
+}
+.rn_NavigationTab2 a em {
+    display:block;
+    font-size:xx-small;
+    height:18px;
+    margin:3px 4px 0 0;
+    position:absolute;
+    right:0;
+    top:0;
+    width:20px;
+}
+.rn_NavigationTab2 .rn_SubNavigation {
+    display:block;
+    float:none;
+    position:absolute;
+    z-index:1;
+    width:150px;
+}
+.rn_NavigationTab2 .rn_SubNavigation.rn_Hidden,
+.rn_NavigationTab2.rn_Hidden {
+    display:none;
+}
+.rn_NavigationTab2 .rn_SubNavigation a {
+    display:block;
+    float:none;
+    margin:0;
+    padding:5px 0 0 10px;
+    width:140px;
+}
